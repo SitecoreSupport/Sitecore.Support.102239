@@ -54,7 +54,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.102239.config" />
     <Content Include="Sitecore\Shell\Client\Sitecore\ExperienceEditor\ExperienceEditor.js" />
   </ItemGroup>
   <ItemGroup>
