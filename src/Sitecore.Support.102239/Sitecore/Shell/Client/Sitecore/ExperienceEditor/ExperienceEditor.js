@@ -455,11 +455,9 @@
       }
     },
 
-    encodeHtml: function (htmlSource) {
-        htmlSource = htmlSource.replace(/\\/g, '\\\\').replace(/\"/g, "\\\"").replace(/&amp;/g, "&amp;amp;"); // fix 102239
-      var encodedHtml = encodeURIComponent(htmlSource);
-      return encodedHtml;
-    },
+      encodeHtml: function (htmlSource) {
+          return jQuery('<div/>').text(htmlSource).html();  //fix 101239;
+      },
 
     getUrlQueryStringValue: function (parameterName) {
       return this.getQueryStringValue(location.href, parameterName);
