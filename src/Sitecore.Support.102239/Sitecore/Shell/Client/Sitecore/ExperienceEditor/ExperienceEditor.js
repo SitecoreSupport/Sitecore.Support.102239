@@ -456,7 +456,7 @@
     },
 
       encodeHtml: function (htmlSource) {
-          return jQuery('<div/>').text(htmlSource).html();  //fix 101239;
+          return jQuery('<div/>').text(htmlSource).html();  //fix 102239;
       },
 
     getUrlQueryStringValue: function (parameterName) {
